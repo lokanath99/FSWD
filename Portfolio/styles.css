@@ -1,0 +1,61 @@
+body{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    
+}
+
+nav{
+    overflow: hidden;
+}
+
+.compname{
+    float: left;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 0.25rem;
+    padding-bottom: 0.5rem;
+}
+
+nav a{
+    float:right;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+
+.active{
+    color: rgb(55, 55, 255);
+}
+
+li img{
+    padding-right: 0.25rem;
+}
+
+.mainContent{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.imageSection{
+    grid-column: 1/6;
+    height: 80%;
+    width: 90%;
+    align-items: center;
+    margin-left:3rem ;
+
+}
+
+.heroSection {
+    grid-column: 7/-1;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    text-align: center;
+
+}
+
+.heroText{
+    color: rgb(234, 234, 0);
+}

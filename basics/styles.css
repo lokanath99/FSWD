@@ -1,0 +1,93 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/* simple selectors */
+body {
+    /* background-image: url('https://images.unsplash.com/photo-1677131741554-0e935678c619?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8eEh4WVRNSExnT2N8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+
+    /* background: url('https://images.unsplash.com/photo-1677131741554-0e935678c619?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8eEh4WVRNSExnT2N8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60') no-repeat fixed center; */
+}
+
+.b-ex{
+    /* border-width: 0.5rem;
+    border-style: dashed;
+    border-color: chartreuse;
+    border-radius: 2rem; */
+    border: 0.5rem double gold ;
+    padding: 2rem;
+    
+}
+
+h1{
+    color: blueviolet;
+}
+
+.talkalot {
+    background-color: blue;
+    color: yellowgreen;
+}
+
+#lott{
+    color: blue;
+    background-color:brown ;
+}
+
+/* combination selector */
+
+div h1{
+    color: chartreuse;
+}
+
+div > h1 {
+    color: chocolate;
+}
+
+h1+p{
+    color: #3aacf2;
+}
+
+h1~p{
+    color: crimson;
+}
+
+/* psudo class selectors */
+
+button:hover{
+    color: rgb(255, 0, 0);
+    background-color: aqua;
+}
+
+button:active{
+    color: blue;
+    background-color: red;
+}
+
+a:hover{
+    color: crimson;
+}
+a:active{
+    color: yellow;
+}
+
+a:visited{
+    color: black;
+}
+
+a:link{
+    color: blue;
+}
+
+/* pseudo elements */
+p::first-letter{
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+
+
+/* backgrounds */
+
