@@ -3,6 +3,58 @@
 
 }
 
+
+.frame1
+{
+position:absolute;
+background-color:#090040;
+height:278px;
+width:592px;
+padding:0px;
+}
+.ellipse1
+{
+background-color:rgba(93, 91, 177, 0.5600000023841858);
+height:183px;
+width:216px;
+left:473px;
+top:137px;
+position:absolute;
+border-radius:50%;
+}
+.ellipse12
+{
+background-color:rgba(251, 84, 84, 0.5600000023841858);
+height:141.41502380371094px;
+width:166.52609252929688px;
+transform:rotate(-18deg);
+top:30px;
+left:259.04px;
+position:absolute;
+border-radius:50%;
+}
+.ellipse2
+{
+background-color:rgba(84, 251, 111, 0.5600000023841858);
+height:215px;
+width:254px;
+border-radius:50%;
+position:absolute;
+top:0px;
+left:-149px;
+}
+.polygon1
+{
+
+height:210px;
+width:286px;
+transform:rotate(-121deg);
+top:220.66px;
+left:326.16px;
+position:absolute;
+}
+
+
 /* simple selectors */
 body {
     /* background-image: url('https://images.unsplash.com/photo-1677131741554-0e935678c619?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8eEh4WVRNSExnT2N8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60');

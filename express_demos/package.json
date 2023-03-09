@@ -17,6 +17,7 @@
     "depd": "^2.0.0",
     "destroy": "^1.2.0",
     "ee-first": "^1.1.1",
+    "ejs": "^3.1.8",
     "encodeurl": "^1.0.2",
     "escape-html": "^1.0.3",
     "etag": "^1.8.1",
@@ -38,6 +39,7 @@
     "mime": "^1.6.0",
     "mime-db": "^1.52.0",
     "mime-types": "^2.1.35",
+    "mongoose": "^6.10.1",
     "ms": "^2.0.0",
     "negotiator": "^0.6.3",
     "object-inspect": "^1.12.3",
@@ -62,7 +64,8 @@
     "vary": "^1.1.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC"
