@@ -1,0 +1,75 @@
+/* types of selectors */
+
+/* Basic selector in CSS */
+/* element/name selector */
+/* h1 { 
+    border: solid ;
+    border-width: 3px;
+    background-color: cadetblue;
+
+} */
+
+/* id selector -> "#" */
+#heading2 {
+    border: 2px solid ;
+    background: aquamarine;
+}
+
+/* class selector -> "." */
+.heading3 {
+    border: 3px dotted;
+    background: burlywood;
+}
+/* end of Basic selector in CSS */
+
+/* combination selectors */
+/* decendent selector */
+div h1 {
+    background: rebeccapurple;
+}
+
+div > p {
+    background: red;
+}
+
+/* div + p {
+    background: brown;
+} */
+
+div ~ p{
+    background-color: blue;
+}
+
+/* pseudo class selector */
+a{
+    background-color: rgb(213, 255, 77);
+}
+
+a:hover{
+    color: brown;
+    cursor: pointer;
+}
+
+/*end of pseudo class selector */
+
+/* pseudo element selectors */
+h1::first-letter{
+    color: brown;
+}
+
+/* attribute selector */
+h1[target], h4[target]{
+    color: cadetblue;
+    background-color: black;
+}
+
+
+
+/* 
+
+1 -> in line style
+2 -> id selectors
+3 -> class selector/pseudo class/ attribute
+4 -> element selector
+
+*/
