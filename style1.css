@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,400;1,500&display=swap');
+
+body {
+    /* background-color: aquamarine; */
+    /* background-color: burlywood; */
+    /* background-image: url("https://images.unsplash.com/photo-1591779051696-1c3fa1469a79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+
+    /* background-position: center; */
+    /* background: url("https://images.unsplash.com/photo-1591779051696-1c3fa1469a79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60") no-repeat fixed;     */
+}
+
+.heading1 {
+    border-style: dashed;
+    border-width: 6px;
+    border-color: blueviolet;
+    border: blue outset thick  ;
+    padding: 20px;
+    margin: 20px;
+}
+
+p {
+    color: brown;
+    text-align: justify;
+    text-transform: none;
+    font-family: 'Poppins', sans-serif;
+    /* font-style: italic; */
+    font-size: x-large;
+
+}
+
+
