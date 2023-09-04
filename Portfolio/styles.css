@@ -1,0 +1,31 @@
+.display-4 {
+    color: rgb(1, 1, 1);
+    font-weight: 500;
+}
+
+.lead{
+    font-weight: 400;
+}
+
+.footer-links{
+    text-decoration: none;
+    color: black;
+}
+
+.logo-amin{
+    transition: all 0.5s;
+}
+
+.logo-amin:hover{
+    transform: rotate(-0.05turn) scale(1.5);
+    
+}
+
+.link-anim{
+    transition: all 0.5s;
+}
+
+.link-anim:hover{
+    transform: scale(1.2);
+    color: black;
+}
