@@ -1,0 +1,10 @@
+// a = 10;
+// var a = 10;
+// let a = 10;
+// const a = 10;
+// var a = 9;
+// var a = 90;
+// a = 8;
+// let a = 93;
+// a = 56;
+// console.log(a);
