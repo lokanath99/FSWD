@@ -99,9 +99,92 @@
 
 // print()
 
-function add(a, b) {
-    // console.log(a + b);
-    return a + b;
+// function add(a, b) {
+//     // console.log(a + b);
+//     return a + b;
+// }
+// ret = add(5, 9);
+// console.log(ret);
+
+// conditional statements
+// let num = 5;
+// if (num === 0) {
+//     console.log("Hay its whole");
+// } else if (num === 2) {
+//     console.log("First Even num");
+// } else if (num % 2 === 0) {
+//     console.log("Hay its even");
+// } else {
+//     console.log("its ODD");
+// }
+
+// a = 3;
+
+// switch (a) {
+//     case 1:
+//         console.log("its 1");
+//         break;
+
+//     case 2:
+//         console.log("its 2");
+//         break;
+
+//     default:
+//         console.log("its nothing "+ a);
+//         break;
+// }
+
+// looping statements
+// while
+// i = 5;//initialise
+// do {//condition checking brekout conditions
+//     // statements
+//     console.log("hello do while");
+//     i++; //incremention of counter
+// }while (i < 5);
+
+// while (i < 5){//condition checking brekout conditions
+//     // statements
+//     console.log("hello just while");
+//     i++; //incremention of counter
+// }
+
+let a = [5, 6, 9, 8, 4, 5, 2, 6];
+// for (i = 0; i < a.length; i++) {
+//     console.log(a[i]);
+// }
+
+// for (let e in a){
+//     console.log(e);
+// }
+
+// a.forEach(ele => {
+//     console.log(ele);
+// })
+
+// for (let e of a){
+//     console.log(e);
+// // }
+// a = 2;
+// b = "2";
+
+// console.log(a === b);
+
+// var add = (a, b) => {
+//     return a + b;
+// };
+
+// console.log(add(4,50));
+
+
+function displayer(some) {
+    console.log('form displayer '+some);
 }
-ret = add(5, 9);
-console.log(ret);
+function yourdisplayer(num, blabla) {
+    console.log("inside your disp "+num);
+    blabla(num, num+5);
+}
+
+yourdisplayer(5, (a, b)=>{
+    console.log("inside anonymous func "+a+b);
+});
