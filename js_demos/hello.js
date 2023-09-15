@@ -176,15 +176,25 @@ let a = [5, 6, 9, 8, 4, 5, 2, 6];
 
 // console.log(add(4,50));
 
+// function displayer(some) {
+//     console.log('form displayer '+some);
+// }
+// function yourdisplayer(num, blabla) {
+//     console.log("inside your disp "+num);
+//     blabla(num, num+5);
+// }
 
-function displayer(some) {
-    console.log('form displayer '+some);
-}
-function yourdisplayer(num, blabla) {
-    console.log("inside your disp "+num);
-    blabla(num, num+5);
-}
+// yourdisplayer(5, (a, b)=>{
+//     console.log("inside anonymous func "+a+b);
+// });
 
-yourdisplayer(5, (a, b)=>{
-    console.log("inside anonymous func "+a+b);
-});
+// function promise() {
+//     return "Hello From Promise";
+// }
+
+// async function mydisplay(){
+//     var Message = await promise();//5sec
+//     console.log(Message);//1 sec
+// }
+
+// mydisplay()
